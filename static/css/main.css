@@ -1,14 +1,51 @@
-.header {
+header {
+    display: flex;
+    justify-content: center;
     height: 80px;
     width: 100%;
     background-color: white;
     -webkit-text-fill-color: #262626;
-    border-bottom: 1px solid rgba(0,0,0,0.5);
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.header-feed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    height: inherit;
 }
 
 .header-logo {
     width: 100px;
     height: auto;
+    transition: all 0.5s ease-out;
+}
+
+.header-logo:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-out;
+}
+
+.box {
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.document-body {
+    color: #262626;
+}
+
+.area-name {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+main {
+    background-color: #fafafa;
 }
 
 .primary-area-name {
@@ -26,12 +63,40 @@
 .compass-icon {
     width: 24px;
     height: 24px;
+    font-size: 24px;
+    justify-content: center;
+}
+
+#spin {
+    -webkit-animation: rotation 4s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(360deg);
+    }
 }
 
 .login-btn {
     font-family: Arial;
     font-size: 14px;
     text-align: center;
+    padding: 10px;
+    border: 1px solid #e6e6e6;
     border-radius: 3px;
-    border-color: #e6e6e6;
+    text-decoration: none;
+}
+
+.login-pos {
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-top: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    text-align: right;
+    border-radius: 3px;
+    border-color: #9b9898;
 }
