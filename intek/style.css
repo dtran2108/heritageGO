@@ -37,6 +37,8 @@ main {
 
 ::placeholder {
   color: #c7c7c7;
+  font-family: Arial, FontAwesome;
+  text-align: right;
 }
 
 .comment-box {
@@ -80,7 +82,7 @@ main {
 }
 
 .widget {
-  padding-right: 40px;
+  padding-right: 1.2em;
 }
 
 header {
@@ -148,11 +150,11 @@ body {
   float: left;
 }
 
-.group-place{
+.group-place {
   float: right;
   height: 100%;
   width: 55%;
-  text-align: right;
+  text-align: center;
   padding: 0;
   margin: 0;
 }
