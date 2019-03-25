@@ -21,6 +21,7 @@
   100% { transform: rotate(12deg); }
 }
 
+
 main {
   display: flex;
   justify-content: center;
@@ -52,6 +53,7 @@ main {
   background-color: white;
   border: 1px solid #e6e6e6;
   border-radius: 30px;
+  box-shadow: none;
 }
 
 .widgets {
@@ -62,9 +64,9 @@ main {
 }
 
 .feed-section {
-  margin-top: 3%;
-  margin-left: 30%;
-  margin-bottom: 3%;
+  margin-top: 12.5px;
+  margin-left: 27%;
+  margin-bottom: 12.5px;
   height: auto;
   width: 600px;
   border: 1px solid #e6e6e6;
@@ -146,9 +148,9 @@ body {
   float: right;
 }
 
-.left{
-  float: left;
-}
+/* .left{
+  left: 20px;
+} */
 
 .group-place {
   float: right;
