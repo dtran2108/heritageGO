@@ -38,10 +38,10 @@ main {
 ::placeholder {
   color: #c7c7c7;
   font-family: Arial, FontAwesome;
-  text-align: right;
+  text-align: left;
 }
 
-.comment-box {
+#comment-box {
   margin: 3%;
   display: block;
   width: 94%;
@@ -58,15 +58,15 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
+
 }
 
 .feed-section {
   margin-top: 3%;
-  margin-left: 25%;
+  margin-left: 30%;
   margin-bottom: 3%;
   height: auto;
-  width: 45%;
+  width: 600px;
   border: 1px solid #e6e6e6;
 }
 
@@ -228,6 +228,7 @@ h4 {
   border-bottom: 2px solid #85c1e9;
   outline: none;
   background: transparent;
+  box-shadow: none;
 }
 
 .modal-body .form-group label
@@ -252,4 +253,11 @@ h4 {
 
 .modal-body .form-group .form-control-feedback {
   pointer-events: initial;
+}
+
+
+#plane{
+  right: 30px;
+  top: 3px;
+  opacity: 0.5;
 }

@@ -45,7 +45,7 @@
                 <label for="email">Email address</label>
               </div>
               <div class="form-group">
-                <input type="text" name="password" class="form-control" id="password" required="">
+                <input type="password" name="password" class="form-control" id="password" required="">
                 <label for="password">Password</label>
                 <i id="open" class="fas fa-lock form-control-feedback"></i>
                 <i id="close" style="display:none" class="fas fa-unlock-alt form-control-feedback"></i>
@@ -56,41 +56,45 @@
         </div>
       </div>
     </div>
-    <main role="main">
-      <div class="feed-section">
-        <div class="feed-head">
-          <div class="title">
-            <img class="profile-img" src="images/54521996_2242714189275932_4163025226357014528_n.jpg" width="50" height="50">
-            <div class="content">
-              <b>The main entrance to Le Van Duyet masoleum - Sai Gon - 1965</b>
-              <div class="sub-content">
-                <div class="grow">
-                  <i class="fas fa-map-marker-alt"></i>
-                  <b>Saigon, Vietnam</b>
-                </div>
-                <div>
-                  <i class="far fa-clock"></i>
-                  <b>1965</b>
+      <main role="main">
+        <div class="feed-section">
+          <div class="feed-head">
+            <div class="title">
+              <img class="profile-img" src="images/54521996_2242714189275932_4163025226357014528_n.jpg" width="50" height="50">
+              <div class="content">
+                <b>The main entrance to Le Van Duyet masoleum - Sai Gon - 1965</b>
+                <div class="sub-content">
+                  <div class="grow">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <b>Saigon, Vietnam</b>
+                  </div>
+                  <div>
+                    <i class="far fa-clock"></i>
+                    <b>1965</b>
+                  </div>
                 </div>
               </div>
             </div>
+            <i class="fas fa-language translate-icon right"></i>
           </div>
-          <i class="fas fa-language translate-icon right"></i>
+          <img src="images/Forum at Sunset.JPG" width="100%" height="width">
+          <div class="widget-section">
+            <div class="widgets">
+              <div class="widget"><i class="fas fa-heart icon"></i><b>0</b></div>
+              <div class="widget"><i class="fas fa-comment icon"></i><b>0</b></div>
+              <div><i class="fas fa-camera icon"></i><b>0</b></div>
+            </div>
+            <div>
+              <i class="fas fa-bookmark"></i>
+            </div>
+          </div>
+          <div class="form-group" style="position: relative">
+            <input id="comment-box" class="form-control" type="text" placeholder="Write a comment">
+            <i id="plane" class="fab fa-telegram-plane form-control-feedback"></i>
+          </div>
         </div>
-        <img src="images/Forum at Sunset.JPG" width="100%" height="width">
-        <div class="widget-section">
-          <div class="widgets">
-            <div class="widget"><i class="fas fa-heart icon"></i><b>0</b></div>
-            <div class="widget"><i class="fas fa-comment icon"></i><b>0</b></div>
-            <div><i class="fas fa-camera icon"></i><b>0</b></div>
-          </div>
-          <div>
-            <i class="fas fa-bookmark"></i>
-          </div>
-        </div>
-        <input class="comment-box" type="text" placeholder="Write a comment &#xf1d8" style="font-family:Arial, FontAwesome">
-      </div>
-    </main>
+      </main>
+
     <script>
       $(document).ready(function(){
         $("#login").click(function(){
